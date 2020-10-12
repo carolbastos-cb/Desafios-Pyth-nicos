@@ -14,11 +14,8 @@ def donuts(count):
     parm count: int
     retunr:string com a quantidade de donuts.r
     """
-    if count < 10:
-        ans = f'Number of donuts: {count}'
-    else:
-        ans = 'Number of donuts: many'
-    return ans
+    return f'Number of donuts: {count}' if count < 10 else "Number of donuts: many"
+
 
 
 # --- Daqui para baixo são apenas códigos auxiliáries de teste. ---
